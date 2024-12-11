@@ -21,8 +21,6 @@ plt.scatter(years, epoch_change, color='blue', s=50, label='Observed Data')
 x_theory = np.linspace(1973, 2005, 1000)
 
 # Calculate theoretical prediction
-# Breaking down the equation for clarity:
-# ((-.240242e-12)/(2*27898.56)) * ((3.154e7)(x-1975))^2
 constant = (-2.40242e-12)/(2*27898.56)
 time_factor = 3.154e7
 y_theory = constant * (time_factor * (x_theory - 1975))**2
@@ -90,7 +88,7 @@ print("-" * 45)
 for year, obs, theo, diff in zip(years, epoch_change, theoretical_at_observed, differences):
     print(f"{year:.1f}    {obs:9.3f}    {theo:11.3f}    {diff:9.3f}")
 
-# After the print table, add statistical information
+# Add statistical information
 print("\nLinear Regression Analysis of Differences:")
 print(f"Slope: {slope:.2e} seconds/year")
 print(f"Intercept: {intercept:.2e} seconds")
