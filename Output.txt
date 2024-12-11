@@ -1,0 +1,53 @@
+Comparison between Observed and Theoretical Values:
+Year    Observed    Theoretical    Difference
+---------------------------------------------
+1974.7        0.257         -0.005        0.262
+1975.0        0.056         -0.000        0.056
+1976.9       -0.346         -0.150       -0.195
+1977.5       -0.078         -0.271        0.193
+1977.8       -0.547         -0.335       -0.212
+1978.2       -0.547         -0.426       -0.121
+1978.7       -0.547         -0.571        0.024
+1979.1       -0.748         -0.737       -0.011
+1980.1       -1.217         -1.102       -0.115
+1980.5       -1.485         -1.295       -0.190
+1981.1       -1.753         -1.577       -0.176
+1981.8       -2.088         -1.968       -0.120
+1982.5       -2.557         -2.402       -0.155
+1983.5       -3.361         -3.082       -0.278
+1984.5       -4.031         -3.848       -0.183
+1985.5       -4.969         -4.698       -0.270
+1987.2       -6.576         -6.353       -0.224
+1988.5       -8.050         -7.840       -0.211
+1989.6       -9.457         -9.124       -0.333
+1990.9      -11.199        -10.793       -0.406
+1992.3      -13.142        -12.813       -0.329
+1998.6      -24.397        -23.897       -0.500
+1999.6      -26.407        -25.953       -0.454
+2001.7      -31.097        -30.481       -0.616
+2003.5      -35.451        -34.849       -0.602
+
+Linear Regression Analysis of Differences:
+Slope: -2.27e-02 seconds/year
+Intercept: 4.48e+01 seconds
+R-squared: 0.7935
+P-value: 2.4143e-09
+Standard Error: 2.41e-03
+
+Statistical Analysis of Differences:
+--------------------------------------------------
+Basic Statistics:
+Mean difference: -0.207 ± 0.042 seconds
+Standard deviation: 0.212 seconds
+
+Gaussian Distribution Test (Shapiro-Wilk):
+W-statistic: 0.971
+p-value: 0.6736
+Data follows Gaussian distribution
+
+One-sample t-test (H0: mean difference = 0):
+t-statistic: -4.787
+p-value: 0.0001
+Evidence of systematic deviation
+
+95% Confidence Interval: (-0.294, -0.119) seconds
